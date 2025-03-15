@@ -1,0 +1,186 @@
+ 
+<mvc:View
+    controllerName="ns.rfapp.controller.Fourth"
+    xmlns:unified="sap.ui.unified"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:ndc="sap.ndc"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:vbm="sap.ui.vbm"
+    xmlns:controls="sap.viz.ui5.controls"
+    xmlns:commons="sap.suite.ui.commons"
+    xmlns:simple="sap.gantt.simple"
+    xmlns:launchpad="sap.ushell.ui.launchpad"
+    xmlns:uxap="sap.uxap"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+    displayBlock="true"
+    xmlns:tnt="sap.tnt"
+>
+    <tnt:ToolPage id="idToolPage_Fourth">
+        <tnt:header>
+            <tnt:ToolHeader id="idtntToolHeader_Fourth">
+                <Image
+                    id="_IDGenImage1_Fourth"
+                    height="1.5rem"
+                    class="sapUiSmallMarginBegin"
+                    src="https://artihcus.com/assets/img/AG-logo.png"
+                />
+
+                  <Title
+                    id="idTitleIn_Fourth"
+                        text="Unloading By ASN"
+                        class="title"
+                        level="H1"
+                        titleStyle="Auto"
+                    />
+                <tnt:ToolHeaderUtilitySeparator
+                    id="idToolHeaderUtilitySeparator_Fourth"
+                />
+                <ToolbarSpacer id="idToolbarSpacer_Fourth">
+                    <layoutData>
+                        <OverflowToolbarLayoutData
+                            id="idOverflowToolbarLayoutData1_Fourth"
+                            priority="NeverOverflow"
+                            minWidth="20px"
+                        />
+                    </layoutData>
+                </ToolbarSpacer>
+                <Avatar
+                    id="_IDGenAvatar1_Fourth"
+                    displaySize="XS"
+                    press="onAvatarPressed"
+                    tooltip="Profile"
+                />
+            </tnt:ToolHeader>
+        </tnt:header>
+ 
+        <tnt:mainContents>
+           
+            <ScrollContainer
+                id="idScrollContainerIn_Fourth"
+                width="100%"
+                height="100%"
+                horizontal="false"
+                vertical="true"
+                class="sapUiContentPadding"
+                visible="true"
+            >
+              
+                <VBox
+                    id="idVBoxThirdScreen_Fourth"
+                    justifyContent="Center"
+                    alignItems="Center"
+                    class="sapUiMediumMarginTop"
+                >
+                    <form:SimpleForm
+                        id="idSimpleForm4_Fourth"
+                        layout="ResponsiveGridLayout"
+                        labelSpanL="4"
+                        labelSpanM="4"
+                        columnsL="2"
+                        columnsM="2"
+                        width="100%"
+                    >
+                        <VBox id="idVBox02Page3_Fourth">
+                            <HBox id="idHBox01Page3_Fourth">
+                                <Text
+                                    id="idLabelProduct_Fourth"
+                                    text="Product"
+                                     width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputProductIn_Fourth"
+                                    width="7rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox02Page3_Fourth">
+                                <Text
+                                    id="idLabelPDs_Fourth"
+                                    text="Product Description"
+                                    width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputPD_Fourth"
+                                       width="7rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox03Page3_Fourth">
+                                <Text
+                                    id="idLabelSerialnumber_Fourth"
+                                    text="Serial Number"
+                                     width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputSerialnumberIn_Fourth"
+                                     width="7rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                
+                            </HBox>
+                            <HBox id="idHBox07Page3_Fourth">
+                                <Text
+                                    id="idLabelQuantityIn_Fourth"
+                                    text="Quantity"
+                                    width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputQuantityIn_Fourth"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                              <Label id="idEmptyLabel" width="10px" />
+                                 <Input
+                                    id="idInputQuantityUnitsIn_Fourth"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+
+                              
+                             <HBox id="idHBox07Page32_Fourth11" alignItems="Center" alignContent="Center">
+                            
+
+                          <Button
+                            id="idNextButtonIn_Fourth"
+                            text="Next"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressNextBtnIn_Fourth"
+                        />
+                             <Button
+                            id="idBackButtonIn_Fourth"
+                            text="Back"
+                            class="sapUiTinyMarginLeft"
+                            press="onPressBackBtnIn_Fourth"
+                        />
+                               
+                            </HBox>
+                        </VBox>
+                    </form:SimpleForm>
+                </VBox>
+            </ScrollContainer>
+ 
+           
+     
+        </tnt:mainContents>
+    </tnt:ToolPage>
+</mvc:View>
+ 
+ 

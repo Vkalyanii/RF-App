@@ -1,0 +1,205 @@
+ 
+<mvc:View
+    controllerName="ns.rfapp.controller.Fifth"
+    xmlns:unified="sap.ui.unified"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:ndc="sap.ndc"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:vbm="sap.ui.vbm"
+    xmlns:controls="sap.viz.ui5.controls"
+    xmlns:commons="sap.suite.ui.commons"
+    xmlns:simple="sap.gantt.simple"
+    xmlns:launchpad="sap.ushell.ui.launchpad"
+    xmlns:uxap="sap.uxap"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+    displayBlock="true"
+    xmlns:tnt="sap.tnt"
+>
+    <tnt:ToolPage id="idToolPagePutawayByWO_Fifth">
+        <tnt:header>
+            <tnt:ToolHeader id="idtntToolHeaderPutawayByWO_Fifth">
+                <Image
+                    id="_IDGenImage1PutawayByWO_Fifth"
+                    height="1.5rem"
+                    class="sapUiSmallMarginBegin"
+                    src="https://artihcus.com/assets/img/AG-logo.png"
+                />
+
+                  <Title
+                    id="idTitleIn_Fifth"
+                        text="Unloading By ASN"
+                        class="title"
+                        level="H1"
+                        titleStyle="Auto"
+                    />
+                <tnt:ToolHeaderUtilitySeparator
+                    id="idToolHeaderUtilitySeparatorPutawayByWO_Fifth"
+                />
+                <ToolbarSpacer id="idToolbarSpacerPutawayByWO_Fifth">
+                    <layoutData>
+                        <OverflowToolbarLayoutData
+                            id="idOverflowToolbarLayoutData1PutawayByWO_Fifth"
+                            priority="NeverOverflow"
+                            minWidth="20px"
+                        />
+                    </layoutData>
+                </ToolbarSpacer>
+                <Avatar
+                    id="_IDGenAvatar1PutawayByWO_Fifth"
+                    displaySize="XS"
+                    press="onAvatarPressed"
+                    tooltip="Profile"
+                />
+            </tnt:ToolHeader>
+        </tnt:header>
+ 
+        <tnt:mainContents>
+           
+            <ScrollContainer
+                id="idScrollContainerIn_Fifth"
+                width="100%"
+                height="100%"
+                horizontal="false"
+                vertical="true"
+                class="sapUiContentPadding"
+                visible="true"
+            >
+              
+                <VBox
+                    id="idVBoxThirdScreen_Fifth"
+                    justifyContent="Center"
+                    alignItems="Center"
+                    class="sapUiMediumMarginTop"
+                >
+                    <form:SimpleForm
+                        id="idSimpleForm4_Fifth"
+                        layout="ResponsiveGridLayout"
+                        labelSpanL="4"
+                        labelSpanM="4"
+                        columnsL="2"
+                        columnsM="2"
+                        width="100%"
+                    >
+                        <VBox id="idVBox02Page3_Fifth">
+                            <HBox id="idHBox01Page3_Fifth">
+                                <Text
+                                    id="idLabelHu_Fifth"
+                                    text="HU"
+                                     width="40px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputHUIn_Fifth"
+                                    width="7rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox02Page3_Fifth">
+                                <Text
+                                    id="idLabelWTs_Fifth"
+                                    text="Unload"
+                                   width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputWTs1_Fifth"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox03Page3_Fifth">
+                                <Text
+                                    id="idLabelUnload_Fifth"
+                                    text="Unload"
+                                    width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputUnloadIn_Fifth"
+                                     width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                
+                            </HBox>
+                            <HBox id="idHBox07Page3_Fifth">
+                                <Text
+                                    id="idLabelGrPostedIn_Fifth"
+                                    text="GR Posted"
+                                      width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputGrPostedIn_Fifth"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+
+                              <HBox id="idHBox07Page3_Fifth11">
+                                <Text
+                                    id="idLabelC1datIn_Fifth"
+                                    text="WT Created"
+                                   width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idI1nputWTCreatedIn_Fifth"
+                                    width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                             <HBox id="idHBox07Page32_Fifth11">
+                                <Button
+                            id="idUnloadButtonIn_Fifth"
+                            text="Unload"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressHuListIn_Fifth"
+                        />
+
+                          <Button
+                            id="idGRIn_Fifth"
+                            text="GR"
+                            class="sapUiTinyMarginEnd"
+                            press="OnPressNewHUIn_Fifth"
+                        />
+                        
+                          <Button
+                            id="idCRWTIn_Fifth"
+                            text="CRWT"
+                            class="sapUiTinyMarginEnd"
+                            press="OnPressCRWTIn_Fifth"
+                        />
+                        <Button
+                            id="idBackButtonIn_Fifth"
+                            text="Back"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressBackBtnIn_Fifth"
+                        />
+                               
+                            </HBox>
+                        </VBox>
+                    </form:SimpleForm>
+                </VBox>
+            </ScrollContainer>
+ 
+           
+     
+        </tnt:mainContents>
+    </tnt:ToolPage>
+</mvc:View>
+ 
+ 

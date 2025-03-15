@@ -1,0 +1,199 @@
+ 
+<mvc:View
+    controllerName="ns.rfapp.controller.Second"
+    xmlns:unified="sap.ui.unified"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:ndc="sap.ndc"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:vbm="sap.ui.vbm"
+    xmlns:controls="sap.viz.ui5.controls"
+    xmlns:commons="sap.suite.ui.commons"
+    xmlns:simple="sap.gantt.simple"
+    xmlns:launchpad="sap.ushell.ui.launchpad"
+    xmlns:uxap="sap.uxap"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+    displayBlock="true"
+    xmlns:tnt="sap.tnt"
+>
+    <tnt:ToolPage id="idToolPage_Second">
+        <tnt:header>
+            <tnt:ToolHeader id="idtntToolHeader_Second">
+                <Image
+                    id="_IDGenImage1_Second"
+                    height="1.5rem"
+                    class="sapUiSmallMarginBegin"
+                    src="https://artihcus.com/assets/img/AG-logo.png"
+                />
+
+                  <Title
+                    id="idTitleIn_Second"
+                        text="Unloading By ASN"
+                        class="title"
+                        level="H1"
+                        titleStyle="Auto"
+                    />
+                <tnt:ToolHeaderUtilitySeparator
+                    id="idToolHeaderUtilitySeparator_Second"
+                />
+                <ToolbarSpacer id="idToolbarSpacer_Second">
+                    <layoutData>
+                        <OverflowToolbarLayoutData
+                            id="idOverflowToolbarLayoutData1_Second"
+                            priority="NeverOverflow"
+                            minWidth="20px"
+                        />
+                    </layoutData>
+                </ToolbarSpacer>
+                <Avatar
+                    id="_IDGenAvatar1_Second"
+                    displaySize="XS"
+                    press="onAvatarPressed"
+                    tooltip="Profile"
+                />
+            </tnt:ToolHeader>
+        </tnt:header>
+ 
+        <tnt:mainContents>
+           
+            <ScrollContainer
+                id="idScrollContainerIn_Second"
+                width="100%"
+                height="100%"
+                horizontal="false"
+                vertical="true"
+                class="sapUiContentPadding"
+                visible="true"
+            >
+              
+                <VBox
+                    id="idVBoxThirdScreen_Second"
+                    justifyContent="Center"
+                    alignItems="Center"
+                    class="sapUiMediumMarginTop"
+                >
+                    <form:SimpleForm
+                        id="idSimpleForm4_Second"
+                        layout="ResponsiveGridLayout"
+                        labelSpanL="4"
+                        labelSpanM="4"
+                        columnsL="2"
+                        columnsM="2"
+                        width="100%"
+                    >
+                        <VBox id="idVBox02Page3_Second">
+                            <HBox id="idHBox01Page3_Second">
+                                <Text
+                                    id="idLabelWT_Second"
+                                    text="HU"
+                                     width="40px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputWT_Second"
+                                    width="7rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox02Page_Second">
+                                <Text
+                                    id="idLabelWTs_Second"
+                                    text="No.of HU's"
+                                   width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputNohu_Second"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox03Page_Second">
+                                <Text
+                                    id="idLabelUnload_Second"
+                                    text="Unload"
+                                    width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputUnloadIn_WTQBYHU"
+                                     width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                
+                            </HBox>
+                            <HBox id="idHBox07Page3_Second">
+                                <Text
+                                    id="idLabelGRIn_Second"
+                                    text="GR Posted"
+                                      width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputGRIn_Second"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+
+                              <HBox id="idHBox07Page_Second">
+                                <Text
+                                    id="idLabelWTCreated_Second"
+                                    text="WT Created"
+                                   width="100px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idI1nputWTCreatedIn_Second"
+                                    width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                               
+                            </HBox>
+                             <HBox id="idHBox07Page32_Second">
+                                <Button
+                            id="idHULISTButtonIn_Second"
+                            text="HU List"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressHuListIn_Second"
+                        />
+
+                          <Button
+                            id="idNewHUButtonIn_Second"
+                            text="New HU"
+                            class="sapUiTinyMarginEnd"
+                            press="OnPressNewHUIn_Second"
+                        />
+                             <Button
+                            id="idBackButtonIn_Second"
+                            text="Back"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressBackBtnIn_Second"
+                        />
+
+                               
+                            </HBox>
+                        </VBox>
+                    </form:SimpleForm>
+                </VBox>
+            </ScrollContainer>
+ 
+           
+     
+        </tnt:mainContents>
+    </tnt:ToolPage>
+</mvc:View>
+ 
+ 

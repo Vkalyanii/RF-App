@@ -1,0 +1,158 @@
+{
+  "_version": "1.65.0",
+  "sap.app": {
+    "id": "ns.rfapp",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.16.5",
+      "toolsId": "0a41e998-d250-40f0-b93e-39d1769a026c"
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "rf_app-display": {
+          "semanticObject": "rf_app",
+          "action": "display",
+          "title": "{{rf_app-display.flpTitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.133.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ns.rfapp.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "ns.rfapp.view",
+        "async": true,
+        "viewPath": "ns.rfapp.view"
+      },
+      "routes": [
+        {
+          "name": "RouteASNSCANFIRST",
+          "pattern": ":?query:",
+          "target": [
+            "TargetASNSCANFIRST"
+          ]
+        },
+        {
+          "name": "Second",
+          "pattern": "Second",
+          "target": [
+            "Second"
+          ]
+        },
+        {
+          "name": "Third",
+          "pattern": "Third",
+          "target": [
+            "Third"
+          ]
+        },
+        {
+          "name": "Fourth",
+          "pattern": "Fourth",
+          "target": [
+            "Fourth"
+          ]
+        },
+        {
+          "name": "Fifth",
+          "pattern": "Fifth",
+          "target": [
+            "Fifth"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetASNSCANFIRST": {
+          "id": "ASNSCANFIRST",
+          "name": "ASNSCANFIRST"
+        },
+        "Second": {
+          "id": "Second",
+          "name": "Second"
+        },
+        "Third": {
+          "id": "Third",
+          "name": "Third"
+        },
+        "Fourth": {
+          "id": "Fourth",
+          "name": "Fourth"
+        },
+        "Fifth": {
+          "id": "Fifth",
+          "name": "Fifth"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "ns.rfapp.view.App",
+      "type": "XML",
+      "id": "App"
+    }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "nsrfapp"
+  }
+}
