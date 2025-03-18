@@ -16,7 +16,7 @@ sap.ui.define([
         },
         onPressBackBtnIn_Second:function(){
           var oRouter = this.getOwnerComponent().getRouter(this);
-            oRouter.navTo("RouteASNSCANFIRST");
+            oRouter.navTo("StandardSecond");
         },
     });
   });

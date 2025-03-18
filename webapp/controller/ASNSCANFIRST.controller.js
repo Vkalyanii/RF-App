@@ -18,8 +18,15 @@ sap.ui.define([
         onPressSubmitIn_ASNSCANFirst:function (){
 
             var oRouter = this.getOwnerComponent().getRouter(this);
-            oRouter.navTo("Second"); 
+            oRouter.navTo("StandardSecond"); 
 
+        },
+        onASNScannedInFirstScreen:function(){
+            var olength = this.getView().byId("idASNInputIn_ASNSCANFIRST").getValue().length;
+           if(olength){
+            var oRouter = this.getOwnerComponent().getRouter(this);
+            oRouter.navTo("StandardSecond"); 
+           }
         }
 
     });

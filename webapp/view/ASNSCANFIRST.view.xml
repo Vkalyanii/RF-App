@@ -20,42 +20,7 @@
     xmlns:tnt="sap.tnt"
 >
     <tnt:ToolPage id="idToolPageASNSCAN_First">
-        <tnt:header>
-            <tnt:ToolHeader id="idtntToolHeaderASNSCAN_First">
-                <Image
-                    id="idGenImageASNSCAN_First"
-                    height="1.5rem"
-                    class="sapUiSmallMarginBegin"
-                    src="https://artihcus.com/assets/img/AG-logo.png"
-                />
-
-                <Title
-                    id="idTitleIn_ASNSCANFirst"
-                    text="Unloading By ASN"
-                    class="title"
-                    level="H1"
-                    titleStyle="Auto"
-                />
-                <tnt:ToolHeaderUtilitySeparator
-                    id="idToolHeaderUtilitySeparatorASNSCAN_First"
-                />
-                <ToolbarSpacer id="idToolbarSpacerASNSCAN_First">
-                    <layoutData>
-                        <OverflowToolbarLayoutData
-                            id="idOverflowToolbarLayoutData1ASNSCAN_First"
-                            priority="NeverOverflow"
-                            minWidth="20px"
-                        />
-                    </layoutData>
-                </ToolbarSpacer>
-                <Avatar
-                    id="idGenAvatar1ASNSCAN_First"
-                    displaySize="XS"
-                    press="onAvatarPressed"
-                    tooltip="Profile"
-                />
-            </tnt:ToolHeader>
-        </tnt:header>
+       
 
         <tnt:mainContents>
             <VBox
@@ -85,7 +50,9 @@
                             <Input
                                 id="idASNInputIn_ASNSCANFIRST"
                                 placeholder="Enter ASN"
-                                width="7rem"
+                                width="17rem"
+                                maxLength="35"
+                                liveChange="onASNScannedInFirstScreen"
                             />
                         </HBox>
 
@@ -94,20 +61,6 @@
                             class="sapTinyMarginEnd"
                         >
                             <!-- Barcode Scan Button -->
-                            <Button
-                                id="idGenButtonASNSCAN_First"
-                                icon="sap-icon://bar-code"
-                                press="Onpressscan"
-                                class="sapUiTinyMarginEnd"
-                            />
-                            <!-- Submit Button -->
-                            <Button
-                                id="idSubmitButtonIn_ASNSCANFirst"
-                                text="Submit"
-                                class="sapUiTinyMarginEnd"
-                                press="onPressSubmitIn_ASNSCANFirst"
-                            />
-
                             <Button
                                 id="idBackButtonIn_ASNSCANFirst"
                                 text="Back"

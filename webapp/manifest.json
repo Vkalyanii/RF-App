@@ -94,6 +94,13 @@
           ]
         },
         {
+          "name": "StandardSecond",
+          "pattern": "StandardSecond",
+          "target": [
+            "StandardSecond"
+          ]
+        },
+        {
           "name": "Second",
           "pattern": "Second",
           "target": [
@@ -126,6 +133,10 @@
         "TargetASNSCANFIRST": {
           "id": "ASNSCANFIRST",
           "name": "ASNSCANFIRST"
+        },
+        "StandardSecond": {
+          "id": "StandardSecond",
+          "name": "StandardSecond"
         },
         "Second": {
           "id": "Second",
