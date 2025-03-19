@@ -134,12 +134,7 @@
                                
                             </HBox>
                              <HBox id="idHBox07Page32_StandardSecond">
-                                <Button
-                            id="idHULISTButtonIn_StandardSecond"
-                            text="HU List"
-                            class="sapUiTinyMarginEnd"
-                            press="onPressHuListIn_StandardSecond"
-                        />
+                        
 
                           <Button
                             id="idNewHUButtonIn_StandardSecond"

@@ -3,14 +3,14 @@ sap.ui.define([
   ], (BaseController) => {
     "use strict";
   
-    return BaseController.extend("ns.rfapp.controller.Fifth", {
+    return BaseController.extend("ns.rfapp.controller.ChangePackagingMaterial", {
         onInit() {
         },
-        onPressBackBtnIn_Fifth:function(){
+        onPressBackBtnIn_ChangePackagingMaterial:function(){
           var oRouter = this.getOwnerComponent().getRouter(this);
-            oRouter.navTo("Fourth");
+            oRouter.navTo("Sixth");
         },
-        OnPressNextIn_Fifth:function(){
+        onPressNextBtnIn_ChangePackagingMaterial:function(){
           var oRouter = this.getOwnerComponent().getRouter(this);
             oRouter.navTo("Sixth");
         },

@@ -127,6 +127,34 @@
           "target": [
             "Fifth"
           ]
+        },
+        {
+          "name": "Sixth",
+          "pattern": "Sixth",
+          "target": [
+            "Sixth"
+          ]
+        },
+        {
+          "name": "Seventh",
+          "pattern": "Seventh",
+          "target": [
+            "Seventh"
+          ]
+        },
+        {
+          "name": "ChangePackagingMaterial",
+          "pattern": "ChangePackagingMaterial",
+          "target": [
+            "ChangePackagingMaterial"
+          ]
+        },
+        {
+          "name": "ChangeQty",
+          "pattern": "ChangeQty",
+          "target": [
+            "ChangeQty"
+          ]
         }
       ],
       "targets": {
@@ -153,6 +181,22 @@
         "Fifth": {
           "id": "Fifth",
           "name": "Fifth"
+        },
+        "Sixth": {
+          "id": "Sixth",
+          "name": "Sixth"
+        },
+        "Seventh": {
+          "id": "Seventh",
+          "name": "Seventh"
+        },
+        "ChangeQty": {
+          "id": "ChangeQty",
+          "name": "ChangeQty"
+        },
+        "ChangePackagingMaterial": {
+          "id": "ChangePackagingMaterial",
+          "name": "ChangePackagingMaterial"
         }
       }
     },

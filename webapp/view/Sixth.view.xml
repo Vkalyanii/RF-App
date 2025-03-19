@@ -1,0 +1,299 @@
+<mvc:View
+    controllerName="ns.rfapp.controller.Sixth"
+    xmlns:unified="sap.ui.unified"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:ndc="sap.ndc"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:vbm="sap.ui.vbm"
+    xmlns:controls="sap.viz.ui5.controls"
+    xmlns:commons="sap.suite.ui.commons"
+    xmlns:simple="sap.gantt.simple"
+    xmlns:launchpad="sap.ushell.ui.launchpad"
+    xmlns:uxap="sap.uxap"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+    displayBlock="true"
+    xmlns:tnt="sap.tnt"
+>
+    <tnt:ToolPage id="idToolPagePutawayByWO_Sixth">
+       
+ 
+        <tnt:mainContents>
+           
+            <ScrollContainer
+                id="idScrollContainerIn_Sixth"
+                width="100%"
+                height="100%"
+                horizontal="false"
+                vertical="true"
+                class="sapUiContentPadding"
+                visible="true"
+            >
+              
+                <VBox
+                    id="idVBoxThirdScreen_Sixth"
+                    justifyContent="Center"
+                    alignItems="Center"
+                    class="sapUiMediumMarginTop"
+                >
+                    <form:SimpleForm
+                        id="idSimpleForm4_Sixth"
+                        layout="ResponsiveGridLayout"
+                        labelSpanL="4"
+                        labelSpanM="4"
+                        columnsL="2"
+                        columnsM="2"
+                        width="100%"
+                    >
+                        <VBox id="idVBox02Page3_Sixth">
+                            <HBox id="idHBox01Page3_Sixth">
+                                <Text
+                                    id="idLabelHu_Sixth"
+                                    text="Delivery"
+                                         width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputHUIn_Sixth"
+                                    width="9rem"
+                                    value=""
+                                    editable="false"
+                                    maxLength="35"
+                                />
+                               
+                            </HBox>
+                            <HBox id="idHBox02Page3_Sixth">
+                                <Text
+                                    id="idLabelWTs_Sixth"
+                                    text="HU"
+                                    width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputWTs1_Sixth"
+                                         width="9rem"
+                                    value=""
+                                    editable="false"
+                                    maxLength="225"
+                                />
+                                 <Label id="idEmptyLabel1Sixth1" width="7px" />
+                                   <Text
+                                    id="idLabelUnload_Sixth1"
+                                    text="HTyp"
+                                    width="35px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                 <Input
+                                    id="id1InputQuantityUnitsIn_Sixth1"
+                                      width="2rem"
+                                    value=""
+                                    editable="false"
+                                     maxLength="3"
+                                />
+                                
+                               
+                            </HBox>
+                            <HBox id="idHBox03Page3_Sixth">
+                                <Text
+                                    id="idLabelUnload_Sixth12"
+                                    text="PkMt"
+                                    width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputUnloadIn_Sixth"
+                                     width="11rem"
+                                    value=""
+                                    editable="false"
+                                />
+              
+                                   <Text
+                                    id="idLabelUnload_Sixth"
+                                    text="SN"
+                                    width="40px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                 <Input
+                                    id="idInputQuantityUnitsIn_Sixth1"
+                                      width="1rem"
+                                    value=""
+                                    editable="false"
+                                     maxLength="1"
+                                />
+                                
+                            </HBox>
+
+                            <HBox id="idHBox03Page3_Sixth1">
+                                <Text
+                                    id="idLabelUnload1_Sixth1"
+                                    text="Pro."
+                                    width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputUnloadIn_Sixth1"
+                                     width="9rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                  <Label id="iddEmptyLabelSixth1" width="5px" />
+                                   <Text
+                                    id="iddLabelUnload_Sixth11"
+                                    text="ItmN"
+                                    width="30px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                 <Input
+                                    id="id1InputQuantityUnitsIn_Sixth11"
+                                      width="4rem"
+                                    value=""
+                                    editable="false"
+                                     maxLength="3"
+                                />
+                                
+                            </HBox>
+                             <HBox id="idHBox011Page3_Sixth">
+                                <Text
+                                    id="idLabelHu_Sixth1"
+                                    text="Prod Des"
+                                         width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInpuProddesIn_Sixth"
+                                    width="15rem"
+                                    value=""
+                                    editable="false"
+                                    maxLength="35"
+                                />
+                               
+                            </HBox> 
+                            <HBox id="idHBox03SQTYPage3_Sixth1">
+                                <Text
+                                    id="idLabelSQT1Y1_Sixth1"
+                                    text="SQty"
+                                    width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+
+                                <Input
+                                    id="idInputSQTY11In_Sixth1"
+                                     width="5rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                <Label id="idd1EmptyLabelSixth11" width="1px" />
+                                 <Input
+                                    id="idInput1SQTY1In_Sixth1"
+                                     width="2rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                  <Label id="idEmpty1LabelSixth1" width="5px" />
+                                   <Text
+                                    id="idLabel1Unload_Sixth11"
+                                    text="Btch"
+                                    width="40px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                 <Input
+                                    id="id1InputBTchUnits1In_Sixth11"
+                                      width="5rem"
+                                    value=""
+                                    editable="false"
+                                     maxLength="3"
+                                />
+                                
+                            </HBox>
+
+                           <HBox id="idStypHBox03SQTYPage3_Sixth1">
+                                <Text
+                                    id="idLabelSQTY1_Sixth1"
+                                    text="STyp"
+                                    width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+
+                                <Input
+                                    id="idInputSQTYIn_Sixth1"
+                                     width="2rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                <Label id="idd1EmptyLabelSixth1" width="3px" />
+                                  <Text
+                                    id="idLabelPtyp1_Sixth1"
+                                    text="PTyp"
+                                    width="40px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                 <Input
+                                    id="idInputSQTY1In_Sixth1"
+                                     width="3rem"
+                                    value=""
+                                    editable="false"
+                                />
+                                  <Label id="idEmptyGMLabelSixth1" width="5px" />
+                                   <Text
+                                    id="idLabelGMUnload_Sixth11"
+                                    text="GMbBin"
+                                    width="50px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                 <Input
+                                    id="id1InputGMbbinUnitsIn_Sixth11"
+                                      width="5rem"
+                                    value=""
+                                    editable="false"
+                                     maxLength="3"
+                                />
+                                
+                            </HBox>
+
+                              
+                             <HBox id="idHBox07Page32_Sixth11">
+                   
+                        
+                          <Button
+                            id="idCRWTIn_Sixth"
+                            text="ChQty"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressChangeQtyIn_Sixth"
+                        />
+                         
+                          <Button
+                            id="idChPm_Sixth"
+                            text="ChPm"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressChangePackagingMaterialIn_Sixth"
+                        />
+                         <Button
+                            id="idNextButtonIn_Sixth"
+                            text="Next"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressNextBtnIn_Sixth"
+                        />
+                        <Button
+                            id="idBackButtonIn_Sixth"
+                            text="Back"
+                            class="sapUiTinyMarginEnd"
+                            press="onPressBackBtnIn_Sixth"
+                        />
+                               
+                            </HBox>
+                        </VBox>
+                    </form:SimpleForm>
+                </VBox>
+            </ScrollContainer>
+ 
+           
+     
+        </tnt:mainContents>
+    </tnt:ToolPage>
+</mvc:View>
+ 
+ 
