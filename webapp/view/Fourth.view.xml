@@ -62,7 +62,7 @@
                                     id="idInputProductIn_Fourth"
                                     width="12rem"
                                     value=""
-                                    editable="false"
+                                
                                     maxLength="20"
                                 />
                                
@@ -78,7 +78,7 @@
                                     id="idInputProdIn_Fourth"
                                     width="17rem"
                                     value=""
-                                    editable="false"
+                                  
                                     maxLength="255"
 
                                 />
@@ -112,7 +112,7 @@
                                     id="idInputQuantityIn_Fourth"
                                       width="7rem"
                                     value=""
-                                    editable="false"
+                                 
                                     maxLength="255"
                                 />
                               <Label id="idEmptyLabel" width="3px" />
@@ -120,7 +120,7 @@
                                     id="idInputQuantityUnitsIn_Fourth"
                                       width="2rem"
                                     value=""
-                                    editable="false"
+                                 
                                      maxLength="3"
                                 />
                                
@@ -136,7 +136,7 @@
                                     id="idInputBBd_Fourth"
                                        width="6rem"
                                     value=""
-                                    editable="false"
+                                 
                                      maxLength="8"
                                 />
                                

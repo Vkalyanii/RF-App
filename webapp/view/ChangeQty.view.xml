@@ -1,6 +1,6 @@
  
 <mvc:View
-    controllerName="ns.rfapp.controller.Fifth"
+    controllerName="ns.rfapp.controller.ChangeQty"
     xmlns:unified="sap.ui.unified"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:core="sap.ui.core"
@@ -20,13 +20,13 @@
     displayBlock="true"
     xmlns:tnt="sap.tnt"
 >
-    <tnt:ToolPage id="idToolPagePutawayByWO_Fifth">
+    <tnt:ToolPage id="idToolPagePutawayByWO_ChangeQty">
        
  
         <tnt:mainContents>
            
             <ScrollContainer
-                id="idScrollContainerIn_Fifth"
+                id="idScrollContainerIn_ChangeQty"
                 width="100%"
                 height="100%"
                 horizontal="false"
@@ -36,13 +36,13 @@
             >
               
                 <VBox
-                    id="idVBoxThirdScreen_Fifth"
+                    id="idVBoxThirdScreen_ChangeQty"
                     justifyContent="Center"
                     alignItems="Center"
                     class="sapUiMediumMarginTop"
                 >
                     <form:SimpleForm
-                        id="idSimpleForm4_Fifth"
+                        id="idSimpleForm4_ChangeQty"
                         layout="ResponsiveGridLayout"
                         labelSpanL="4"
                         labelSpanM="4"
@@ -50,61 +50,77 @@
                         columnsM="2"
                         width="100%"
                     >
-                        <VBox id="idVBox02Page3_Fifth">
-                            <HBox id="idHBox01Page3_Fifth">
+                        <VBox id="idVBox02Page3_ChangeQty">
+                            <HBox id="idHBox01Page3_ChangeQty">
                                 <Text
-                                    id="idLabelHu_Fifth"
-                                    text="Delivery"
+                                    id="idLabelHu_ChangeQty"
+                                    text="Product"
                                          width="70px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
-                                    id="idInputHUIn_Fifth"
+                                    id="idInputHUIn_ChangeQty"
                                     width="9rem"
                                     value=""
                                     editable="false"
                                     maxLength="35"
                                 />
-                               
+                               <Label id="idEmpty12LabelChangeQty" width="3px" />
+                                <Input
+                                    id="idInput12WTs1_ChangeQty"
+                                         width="3rem"
+                                    value=""
+                                    editable="false"
+                                    maxLength="225"
+                                />
                             </HBox>
-                            <HBox id="idHBox02Page3_Fifth">
+                            <HBox id="idHBox02Page3_ChangeQty">
                                 <Text
-                                    id="idLabelWTs_Fifth"
-                                    text="HU"
+                                    id="idLabelWTs_ChangeQty"
+                                    text="Prod Des"
                                     width="70px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
-                                    id="idInputWTs1_Fifth"
+                                    id="idInputWTs1_ChangeQty"
                                          width="9rem"
+                                    value=""
+                                    editable="false"
+                                    maxLength="225"
+                                />
+                                 <Label id="idEmpty12L2abelChangeQty" width="3px" />
+                                   <Text
+                                    id="idLabe1lWTs_ChangeQty"
+                                    text="SN"
+                                    width="20px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInput12WT3s1_ChangeQty"
+                                         width="1rem"
                                     value=""
                                     editable="false"
                                     maxLength="225"
                                 />
                                
                             </HBox>
-                            <HBox id="idHBox03Page3_Fifth">
+                            <HBox id="idHBox03Page3_ChangeQty">
                                 <Text
-                                    id="idLabelUnload_Fifth12"
-                                    text="Orig PMat"
+                                    id="idLabelUnload_ChangeQty12"
+                                    text="Source Qty"
                                     width="70px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
-                                    id="idInputUnloadIn_Fifth"
+                                    id="idInputUnloadIn_ChangeQty"
                                      width="8rem"
                                     value=""
                                     editable="false"
                                 />
-                                  <Label id="idEmptyLabelFifth" width="3px" />
-                                   <Text
-                                    id="idLabelUnload_Fifth"
-                                    text="HTyp"
-                                    width="40px"
-                                    class="sapUiTinyMarginTop"
-                                />
+                                  <Label id="idEmptyLabelChangeQty" width="1px" />
+                               
                                  <Input
-                                    id="idInputQuantityUnitsIn_Fifth1"
+                                    id="idInputQuantityUnitsIn_ChangeQty1"
                                       width="2rem"
                                     value=""
                                     editable="false"
@@ -113,28 +129,23 @@
                                 
                             </HBox>
 
-                            <HBox id="idHBox03Page3_Fifth1">
+                            <HBox id="idHBox03Page3_ChangeQty1">
                                 <Text
-                                    id="idLabelUnload1_Fifth1"
-                                    text="New P.Mat"
+                                    id="idLabelUnload1_ChangeQty1"
+                                    text="Actual Qty"
                                     width="70px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
-                                    id="idInputUnloadIn_Fifth1"
+                                    id="idInputUnloadIn_ChangeQty1"
                                      width="8rem"
                                     value=""
                                  
                                 />
-                                  <Label id="idEmptyLabelFifth1" width="3px" />
-                                   <Text
-                                    id="idLabelUnload_Fifth1"
-                                    text="HTyp"
-                                    width="40px"
-                                    class="sapUiTinyMarginTop"
-                                />
+                                  <Label id="idEmptyLabelChangeQty1" width="1px" />
+                                  
                                  <Input
-                                    id="id1InputQuantityUnitsIn_Fifth1"
+                                    id="id1InputQuantityUnitsIn_ChangeQty1"
                                       width="2rem"
                                     value=""
                            
@@ -144,20 +155,20 @@
                             </HBox>
                            
                               
-                             <HBox id="idHBox07Page32_Fifth11">
+                             <HBox id="idHBox07Page32_ChangeQty11">
                    
                         
                           <Button
-                            id="idCRWTIn_Fifth"
+                            id="idCRWTIn_ChangeQty"
                             text="Next"
                             class="sapUiTinyMarginEnd"
-                            press="OnPressNextIn_Fifth"
+                            press="onPressNextIn_ChangeQty"
                         />
                         <Button
-                            id="idBackButtonIn_Fifth"
+                            id="idBackButtonIn_ChangeQty"
                             text="Back"
                             class="sapUiTinyMarginEnd"
-                            press="onPressBackBtnIn_Fifth"
+                            press="onPressBackBtnIn_ChangeQty"
                         />
                                
                             </HBox>
