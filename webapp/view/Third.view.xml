@@ -21,43 +21,7 @@
     xmlns:tnt="sap.tnt"
 >
     <tnt:ToolPage id="idToolPagePutawayByWO_Third">
-        <tnt:header>
-            <tnt:ToolHeader id="idtntToolHeaderPutawayByWO_Third">
-                <Image
-                    id="_IDGenImage1PutawayByWO_Third"
-                    height="1.5rem"
-                    class="sapUiSmallMarginBegin"
-                    src="https://artihcus.com/assets/img/AG-logo.png"
-                />
-
-                  <Title
-                    id="idTitleIn_Third"
-                        text="Unloading By ASN"
-                        class="title"
-                        level="H1"
-                        titleStyle="Auto"
-                    />
-                <tnt:ToolHeaderUtilitySeparator
-                    id="idToolHeaderUtilitySeparator_Third"
-                />
-                <ToolbarSpacer id="idToolbarSpacer_Third">
-                    <layoutData>
-                        <OverflowToolbarLayoutData
-                            id="idOverflowToolbarLayoutData1_Third"
-                            priority="NeverOverflow"
-                            minWidth="20px"
-                        />
-                    </layoutData>
-                </ToolbarSpacer>
-                <Avatar
-                    id="_IDGenAvatar1_Third"
-                    displaySize="XS"
-                    press="onAvatarPressed"
-                    tooltip="Profile"
-                />
-            </tnt:ToolHeader>
-        </tnt:header>
- 
+        
         <tnt:mainContents>
            
             <ScrollContainer

@@ -21,42 +21,7 @@
     xmlns:tnt="sap.tnt"
 >
     <tnt:ToolPage id="idToolPage_Fourth">
-        <tnt:header>
-            <tnt:ToolHeader id="idtntToolHeader_Fourth">
-                <Image
-                    id="_IDGenImage1_Fourth"
-                    height="1.5rem"
-                    class="sapUiSmallMarginBegin"
-                    src="https://artihcus.com/assets/img/AG-logo.png"
-                />
-
-                  <Title
-                    id="idTitleIn_Fourth"
-                        text="Unloading By ASN"
-                        class="title"
-                        level="H1"
-                        titleStyle="Auto"
-                    />
-                <tnt:ToolHeaderUtilitySeparator
-                    id="idToolHeaderUtilitySeparator_Fourth"
-                />
-                <ToolbarSpacer id="idToolbarSpacer_Fourth">
-                    <layoutData>
-                        <OverflowToolbarLayoutData
-                            id="idOverflowToolbarLayoutData1_Fourth"
-                            priority="NeverOverflow"
-                            minWidth="20px"
-                        />
-                    </layoutData>
-                </ToolbarSpacer>
-                <Avatar
-                    id="_IDGenAvatar1_Fourth"
-                    displaySize="XS"
-                    press="onAvatarPressed"
-                    tooltip="Profile"
-                />
-            </tnt:ToolHeader>
-        </tnt:header>
+       
  
         <tnt:mainContents>
            
@@ -79,7 +44,7 @@
                     <form:SimpleForm
                         id="idSimpleForm4_Fourth"
                         layout="ResponsiveGridLayout"
-                        labelSpanL="4"
+                     labelSpanL="4"
                         labelSpanM="4"
                         columnsL="2"
                         columnsM="2"
@@ -89,70 +54,94 @@
                             <HBox id="idHBox01Page3_Fourth">
                                 <Text
                                     id="idLabelProduct_Fourth"
-                                    text="Product"
-                                     width="100px"
+                                    text="HU"
+                                     width="60px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
                                     id="idInputProductIn_Fourth"
-                                    width="7rem"
+                                    width="12rem"
                                     value=""
                                     editable="false"
+                                    maxLength="20"
+                                />
+                               
+                            </HBox>
+                             <HBox id="idHBox01Page13_Fourth">
+                                <Text
+                                    id="idLabelProd_Fourth"
+                                    text="Prod"
+                                     width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputProdIn_Fourth"
+                                    width="17rem"
+                                    value=""
+                                    editable="false"
+                                    maxLength="255"
+
                                 />
                                
                             </HBox>
                             <HBox id="idHBox02Page3_Fourth">
                                 <Text
                                     id="idLabelPDs_Fourth"
-                                    text="Product Description"
-                                    width="100px"
+                                    text="Prd Des"
+                                    width="60px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
                                     id="idInputPD_Fourth"
-                                       width="7rem"
+                                       width="20rem"
                                     value=""
                                     editable="false"
+                                    maxLength="40"
                                 />
                                
                             </HBox>
-                            <HBox id="idHBox03Page3_Fourth">
-                                <Text
-                                    id="idLabelSerialnumber_Fourth"
-                                    text="Serial Number"
-                                     width="100px"
-                                    class="sapUiTinyMarginTop"
-                                />
-                                <Input
-                                    id="idInputSerialnumberIn_Fourth"
-                                     width="7rem"
-                                    value=""
-                                    editable="false"
-                                />
-                                
-                            </HBox>
+                            
                             <HBox id="idHBox07Page3_Fourth">
                                 <Text
                                     id="idLabelQuantityIn_Fourth"
-                                    text="Quantity"
-                                    width="100px"
+                                    text="ActQty"
+                                    width="60px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
                                     id="idInputQuantityIn_Fourth"
-                                      width="3rem"
+                                      width="7rem"
                                     value=""
                                     editable="false"
+                                    maxLength="255"
                                 />
-                              <Label id="idEmptyLabel" width="10px" />
+                              <Label id="idEmptyLabel" width="3px" />
                                  <Input
                                     id="idInputQuantityUnitsIn_Fourth"
-                                      width="3rem"
+                                      width="2rem"
                                     value=""
                                     editable="false"
+                                     maxLength="3"
                                 />
                                
                             </HBox>
+                             <HBox id="idHBox02BBDPage3_Fourth">
+                                <Text
+                                    id="idLabelPD1s_Fourth"
+                                    text="BBD"
+                                    width="60px"
+                                    class="sapUiTinyMarginTop"
+                                />
+                                <Input
+                                    id="idInputBBd_Fourth"
+                                       width="6rem"
+                                    value=""
+                                    editable="false"
+                                     maxLength="8"
+                                />
+                               
+                            </HBox>
+                            
 
                               
                              <HBox id="idHBox07Page32_Fourth11" alignItems="Center" alignContent="Center">

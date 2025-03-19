@@ -21,43 +21,7 @@
     xmlns:tnt="sap.tnt"
 >
     <tnt:ToolPage id="idToolPage_Second">
-        <tnt:header>
-            <tnt:ToolHeader id="idtntToolHeader_Second">
-                <Image
-                    id="_IDGenImage1_Second"
-                    height="1.5rem"
-                    class="sapUiSmallMarginBegin"
-                    src="https://artihcus.com/assets/img/AG-logo.png"
-                />
-
-                  <Title
-                    id="idTitleIn_Second"
-                        text="Unloading By ASN"
-                        class="title"
-                        level="H1"
-                        titleStyle="Auto"
-                    />
-                <tnt:ToolHeaderUtilitySeparator
-                    id="idToolHeaderUtilitySeparator_Second"
-                />
-                <ToolbarSpacer id="idToolbarSpacer_Second">
-                    <layoutData>
-                        <OverflowToolbarLayoutData
-                            id="idOverflowToolbarLayoutData1_Second"
-                            priority="NeverOverflow"
-                            minWidth="20px"
-                        />
-                    </layoutData>
-                </ToolbarSpacer>
-                <Avatar
-                    id="_IDGenAvatar1_Second"
-                    displaySize="XS"
-                    press="onAvatarPressed"
-                    tooltip="Profile"
-                />
-            </tnt:ToolHeader>
-        </tnt:header>
- 
+       
         <tnt:mainContents>
            
             <ScrollContainer
@@ -90,14 +54,15 @@
                                 <Text
                                     id="idLabelWT_Second"
                                     text="HU"
-                                     width="40px"
+                                     width="80px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
                                     id="idInputWT_Second"
-                                    width="7rem"
+                                    width="15rem"
                                     value=""
-                                    editable="false"
+                                    editable="true"
+                                    maxLength="225"
                                 />
                                
                             </HBox>
@@ -105,7 +70,7 @@
                                 <Text
                                     id="idLabelWTs_Second"
                                     text="No.of HU's"
-                                   width="100px"
+                                    width="80px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
@@ -113,21 +78,30 @@
                                       width="3rem"
                                     value=""
                                     editable="false"
+                                    maxLength="3"
                                 />
-                               
+                                <Text id="idSampleSlash" text="/" width="1rem" height="3rem" class="sapUiTinyMarginBegin sapUiTinyMarginTop" />
+                                <Input
+                                    id="idInputNohu1_Second"
+                                      width="3rem"
+                                    value=""
+                                    editable="false"
+                                      maxLength="3"
+                                />
                             </HBox>
                             <HBox id="idHBox03Page_Second">
                                 <Text
                                     id="idLabelUnload_Second"
-                                    text="Unload"
-                                    width="100px"
+                                    text="Pak.compl"
+                                   width="80px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
                                     id="idInputUnloadIn_WTQBYHU"
-                                     width="3rem"
+                                     width="1rem"
                                     value=""
                                     editable="false"
+                                       maxLength="1"
                                 />
                                 
                             </HBox>
@@ -135,14 +109,16 @@
                                 <Text
                                     id="idLabelGRIn_Second"
                                     text="GR Posted"
-                                      width="100px"
+                                      width="80px"
                                     class="sapUiTinyMarginTop"
+                                     
                                 />
                                 <Input
                                     id="idInputGRIn_Second"
-                                      width="3rem"
+                                      width="1rem"
                                     value=""
                                     editable="false"
+                                       maxLength="1"
                                 />
                                
                             </HBox>
@@ -151,14 +127,15 @@
                                 <Text
                                     id="idLabelWTCreated_Second"
                                     text="WT Created"
-                                   width="100px"
+                                  width="80px"
                                     class="sapUiTinyMarginTop"
                                 />
                                 <Input
                                     id="idI1nputWTCreatedIn_Second"
-                                    width="3rem"
+                                    width="1rem"
                                     value=""
                                     editable="false"
+                                       maxLength="1"
                                 />
                                
                             </HBox>
@@ -176,13 +153,31 @@
                             class="sapUiTinyMarginEnd"
                             press="OnPressNewHUIn_Second"
                         />
-                             <Button
+                       
+                         <Button
+                            id="idMULHUButtonIn_Second"
+                            text="MulHU"
+                            class="sapUiTinyMarginEnd"
+                            press="OnPressMULHUIn_Second"
+                        />
+                         <Button
+                            id="idPostGRHUButtonIn_Second"
+                            text="PostG"
+                            class="sapUiTinyMarginEnd"
+                            press="OnPressPostRIn_Second"
+                        />
+                          <Button
+                            id="idCrWTHUButtonIn_Second"
+                            text="CrWT"
+                            class="sapUiTinyMarginEnd"
+                            press="OnPressCRWTIn_Second"
+                        />
+                              <Button
                             id="idBackButtonIn_Second"
                             text="Back"
                             class="sapUiTinyMarginEnd"
                             press="onPressBackBtnIn_Second"
                         />
-
                                
                             </HBox>
                         </VBox>
