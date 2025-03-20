@@ -88,7 +88,7 @@
                                    <Text
                                     id="idLabelUnload_Seventh1"
                                     text="Unload"
-                                      width="170px"
+                                      width="160px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input
@@ -106,7 +106,7 @@
                                    <Text
                                     id="idLabelUnload_Seventh"
                                     text="GR posted"
-                                   width="170px"
+                                   width="160px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input
@@ -123,7 +123,7 @@
                                    <Text
                                     id="idLabelWT_Seventh"
                                     text="WT Created"
-                                      width="170px"
+                                      width="160px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input
