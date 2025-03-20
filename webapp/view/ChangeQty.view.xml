@@ -75,15 +75,10 @@
                                 />
                             </HBox>
                             <HBox id="idHBox02Page3_ChangeQty">
-                                <Text
-                                    id="idLabelWTs_ChangeQty"
-                                    text="Prod Des"
-                                    width="70px"
-                                    class="sapUiTinyMarginTop"
-                                />
+                              
                                 <Input
                                     id="idInputWTs1_ChangeQty"
-                                         width="9rem"
+                                         width="11rem"
                                     value=""
                                     editable="false"
                                     maxLength="225"
@@ -97,10 +92,10 @@
                                 />
                                 <Input
                                     id="idInput12WT3s1_ChangeQty"
-                                         width="1rem"
+                                         width="1px"
                                     value=""
                                     editable="false"
-                                    maxLength="225"
+                                 
                                 />
                                
                             </HBox>

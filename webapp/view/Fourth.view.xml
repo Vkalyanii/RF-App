@@ -85,15 +85,10 @@
                                
                             </HBox>
                             <HBox id="idHBox02Page3_Fourth">
-                                <Text
-                                    id="idLabelPDs_Fourth"
-                                    text="Prd Des"
-                                    width="60px"
-                                    class="sapUiTinyMarginTop"
-                                />
+                              
                                 <Input
                                     id="idInputPD_Fourth"
-                                       width="20rem"
+                                       width="21rem"
                                     value=""
                                     editable="false"
                                     maxLength="40"

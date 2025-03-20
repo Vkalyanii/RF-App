@@ -160,6 +160,8 @@
                             class="sapUiTinyMarginEnd"
                             press="OnPressMULHUIn_Second"
                         />
+                          </HBox>
+                        <HBox id="idSecondScreenHbox2">
                          <Button
                             id="idPostGRHUButtonIn_Second"
                             text="PostG"
