@@ -54,6 +54,15 @@
                                 maxLength="35"
                                 liveChange="onASNScannedInFirstScreen"
                             />
+                             <!-- Barcode Scan Button -->
+                            <ndc:BarcodeScannerButton
+                                id="idSampleBarcodeScannerButtonIN_RHUASN"
+                                scanSuccess="onScanSuccessOne"
+                                scanFail="onScanErrorOne"
+                                inputLiveUpdate="onScanLiveUpdate"
+                                dialogTitle="Enter HU Number"
+                                class="sapUiMediumMarginBegin"
+                            />
                         </HBox>
 
                         <HBox
