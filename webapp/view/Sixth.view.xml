@@ -197,7 +197,7 @@
                                    <Text
                                     id="idLabel1Unload_Sixth11"
                                     text="Btch"
-                                    width="30px"
+                                    width="40px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input
@@ -228,7 +228,7 @@
                                   <Text
                                     id="idLabelPtyp1_Sixth1"
                                     text="PTyp"
-                                    width="35px"
+                                    width="40px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input

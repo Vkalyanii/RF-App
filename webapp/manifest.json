@@ -17,13 +17,13 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/sap/opu/odata/sap/ZEWM_PR_RHUBYASN_SRV/",
-        "type": "OData",
-        "settings": {
-          "annotations": [],
-          "localUri": "localService/mainService/metadata.xml",
-          "odataVersion": "2.0"
-        }
+          "uri": "/sap/opu/odata/sap/ZEWM_PR_RHUBYASN_SRV/",
+          "type": "OData",
+          "settings": {
+              "annotations": [],
+              "localUri": "localService/mainService/metadata.xml",
+              "odataVersion": "2.0"
+          }
       }
     },
     "crossNavigation": {
@@ -80,7 +80,8 @@
         "dataSource": "mainService",
         "preload": true,
         "settings": {}
-      }
+    }
+
     },
     "resources": {
       "css": [
@@ -105,52 +106,72 @@
         {
           "name": "RouteASNSCANFIRST",
           "pattern": ":?query:",
-          "target": ["TargetASNSCANFIRST"]
+          "target": [
+            "TargetASNSCANFIRST"
+          ]
         },
         {
           "name": "StandardSecond",
           "pattern": "StandardSecond",
-          "target": ["StandardSecond"]
+          "target": [
+            "StandardSecond"
+          ]
         },
         {
           "name": "Second",
           "pattern": "Second",
-          "target": ["Second"]
+          "target": [
+            "Second"
+          ]
         },
         {
           "name": "Third",
           "pattern": "Third",
-          "target": ["Third"]
+          "target": [
+            "Third"
+          ]
         },
         {
           "name": "Fourth",
           "pattern": "Fourth",
-          "target": ["Fourth"]
+          "target": [
+            "Fourth"
+          ]
         },
         {
           "name": "Fifth",
           "pattern": "Fifth",
-          "target": ["Fifth"]
+          "target": [
+            "Fifth"
+          ]
         },
         {
           "name": "Sixth",
           "pattern": "Sixth",
-          "target": ["Sixth"]
+          "target": [
+            "Sixth"
+          ]
         },
         {
           "name": "Seventh",
           "pattern": "Seventh",
-          "target": ["Seventh"]
+          "target": [
+            "Seventh"
+          ]
         },
         {
           "name": "ChangePackagingMaterial",
           "pattern": "ChangePackagingMaterial",
-          "target": ["ChangePackagingMaterial"]
+          "target": [
+            "ChangePackagingMaterial"
+          ]
         },
         {
           "name": "ChangeQty",
           "pattern": "ChangeQty",
-          "target": ["ChangeQty"]
+          "target": [
+            "ChangeQty"
+          ]
         }
       ],
       "targets": {
