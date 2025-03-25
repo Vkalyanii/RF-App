@@ -50,7 +50,7 @@
                         columnsM="2"
                         width="100%"
                     >
-                        <VBox id="idVBox02Page3_ChangePackagingMaterial">
+                        <VBox id="idVBox02Page3_ChangePackagingMaterial" width="100%" >
                             <HBox id="idHBox01Page3_ChangePackagingMaterial">
                                 <Text
                                     id="idLabelHu_ChangePackagingMaterial"

@@ -193,11 +193,11 @@
                                     value=""
                                     editable="false"
                                 />
-                                  <Label id="idEmpty1LabelSixth1" width="8px" />
+                                  <Label id="idEmpty1LabelSixth1" width="14px" />
                                    <Text
                                     id="idLabel1Unload_Sixth11"
                                     text="Btch"
-                                    width="40px"
+                                    width="35px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input
@@ -224,11 +224,11 @@
                                     value=""
                                     editable="false"
                                 />
-                                <Label id="idd1EmptyLabelSixth1" width="7px" />
+                                <Label id="idd1EmptyLabelSixth1" width="14px" />
                                   <Text
                                     id="idLabelPtyp1_Sixth1"
                                     text="PTyp"
-                                    width="40px"
+                                    width="35px"
                                     class="sapUiTinyMarginTop"
                                 />
                                  <Input

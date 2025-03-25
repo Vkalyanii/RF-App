@@ -6,7 +6,7 @@
     "conn_user": "lakshmiv",
     "conn_password": "Kalyani@f0004",
     "abap_package": "$TMP",
-    "abap_bsp": "Z_RFRHU",
+    "abap_bsp": "Z_RFRHU1",
     "abap_bsp_text": "UI5 upload through VSCode App",
     "abap_transport": "AKEK903776"
 }

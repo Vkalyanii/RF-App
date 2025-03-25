@@ -37,7 +37,7 @@
               
                 <VBox
                     id="idVBoxThirdScreen_Fifth"
-                    justifyContent="Center"
+                  justifyContent="Center"
                     alignItems="Center"
                     class="sapUiMediumMarginTop"
                 >
@@ -50,7 +50,7 @@
                         columnsM="2"
                         width="100%"
                     >
-                        <VBox id="idVBox02Page3_Fifth">
+                        <VBox id="idVBox02Page3_Fifth" width="100%">
                             <HBox id="idHBox01Page3_Fifth">
                                 <Text
                                     id="idLabelHu_Fifth"
